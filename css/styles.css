@@ -43,13 +43,14 @@ h3 {
     color: #2e2f42;
 }
 
+.adress {
+    font-style: normal;
+}
+
 .contacts{
     font-style: normal;
     color: #434455;
 }
-.contacs-list{
-    font-style:normal;
- }
 
 a{
     text-decoration: none;
