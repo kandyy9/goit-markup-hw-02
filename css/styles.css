@@ -28,6 +28,7 @@ h3 {
     font-size: 18px;
     font-weight:700;
     line-height:1.17;
+    letter-spacing: 0.003em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
@@ -43,18 +44,20 @@ h3 {
 .contacts{
     font-style: normal;
 }
+ ul{
+    list-style-type: none;
+ }
+a{
+    text-decoration: none;
+}
 
-.link{
-    
+.link:hover,
+.link:focus {
+    color: #404BBF;
 }
 
 .contacts:hover,
 .contacts:focus {
-    color: #404BBF;
-}
-
-.mail:hover,
-.mail:focus {
     color: #404BBF;
 }
 
