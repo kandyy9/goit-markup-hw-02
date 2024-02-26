@@ -11,6 +11,7 @@ h1{
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 h2 {
@@ -44,9 +45,9 @@ h3 {
 
 .contacts{
     font-style: normal;
-    color: #2e2f42;
+    color: #434455;
 }
- .contacts-list{
+adress{
     list-style-type: none;
  }
 
@@ -64,9 +65,20 @@ a{
     color: #404BBF;
 }
 
+.hero{
+    background-color: #2E2F42;
+}
+.hero-title {
+    color: #ffffff;
+}
+
 .order{
-    letter-spacing: 0.04em;
     background-color: #4D5AE5;
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
@@ -74,6 +86,4 @@ a{
 .order:focus{
     background-color:#404BBF;
 }
-
-
 
