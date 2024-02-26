@@ -1,0 +1,58 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.48px;
+}
+
+h1{
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 1.22px;
+    line-height: 1.07;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+}
+
+.order{
+    letter-spacing: 0.64px;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.order:hover,
+.order:focus{
+    background-color:#404BBF;
+}
+
+.contacts:hover,
+.contacts:focus{
+    color: #404BBF;
+}
+
+nav a:hover,
+nav a:focus{
+color:#404BBF;
+}
+
+.our-team-images{
+    width:264px;
+    height:260px;
+}
+
+.portfolio-images{
+    width: 360px;
+    height: 300px;
+}
