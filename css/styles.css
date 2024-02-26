@@ -47,8 +47,8 @@ h3 {
     font-style: normal;
     color: #434455;
 }
-adress{
-    list-style-type: none;
+.contacs-list{
+    font-style:normal;
  }
 
 a{
@@ -69,12 +69,14 @@ a{
     background-color: #2E2F42;
 }
 .hero-title {
+    text-align: center;
     color: #ffffff;
 }
 
 .order{
     background-color: #4D5AE5;
     color:#ffffff;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
