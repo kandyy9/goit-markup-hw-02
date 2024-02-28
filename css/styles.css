@@ -74,8 +74,8 @@ a{
     color: var(--white-color);
 }
 
-.order{
-    background-color: var(--iris-color);
+.order-button{
+    background-color: var(--primary-brand-color);
     color: var(--white-color);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -120,7 +120,9 @@ a{
 .info-footer{
     background-color: var(--dark-color);
 }
-
+footer > .logo > .logo-separation{
+    color: var(--light-color);
+}
 .footer-paragraph{
         color: var(--light-color);
 }
