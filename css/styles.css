@@ -22,10 +22,6 @@ h1{
     letter-spacing: 0.02em;
 }
 
-h2 {
-    font-size: 36px;
-    font-weight: 700;
-}
 
 h3 {
     font-size: 20px;
@@ -94,6 +90,20 @@ a{
     background-color:var(--pressed-state-color);
 }
 
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark-color);
+}
+
+.team > .section-title{
+    line-height: 1.5;
+}
+
 .section-item-title{
     color: var(--dark-color);
     font-weight: 500;
@@ -107,14 +117,12 @@ a{
     background-color: var(--light-color);
 }
 
-.team-title{
-    text-align: center;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--dark-color);
-}
+
 
 .team-member-card{
     background-color: var(--white-color);
+}
+
+.portfolio > .section-title{
+    font-weight: 500;
 }
