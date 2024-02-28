@@ -74,7 +74,7 @@ a{
     color: var(--white-color);
 }
 
-.order-button{
+.hero-button{
     background-color: var(--primary-brand-color);
     color: var(--white-color);
     font-family: "Roboto", sans-serif;
@@ -85,8 +85,8 @@ a{
     cursor: pointer;
 }
 
-.order:hover,
-.order:focus{
+.hero-button:hover,
+.hero-button:focus{
     background-color:var(--pressed-state-color);
 }
 
