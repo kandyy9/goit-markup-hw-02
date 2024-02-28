@@ -4,6 +4,7 @@
     --dark-color: #2e2f42;
     --pressed-state-color: #404BBF;
     --white-color:#FFFFFF;
+    --light-color:#F4F4FD;
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -93,8 +94,23 @@ a{
     background-color:var(--pressed-state-color);
 }
 
-.quality-title{
+.section-item-title{
     color: var(--dark-color);
     font-weight: 500;
     letter-spacing: 0.02em;
+}
+
+.team{
+    background-color: var(--light-color);
+}
+
+.team-title{
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-member-card{
+    background-color: var(--white-color);
 }
