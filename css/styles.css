@@ -100,10 +100,6 @@ a{
     color: var(--dark-color);
 }
 
-.team > .section-title{
-    line-height: 1.5;
-}
-
 .section-item-title{
     color: var(--dark-color);
     font-weight: 500;
@@ -117,12 +113,14 @@ a{
     background-color: var(--light-color);
 }
 
-
-
 .team-member-card{
     background-color: var(--white-color);
 }
 
-.portfolio > .section-title{
-    font-weight: 500;
+.info-footer{
+    background-color: var(--dark-color);
+}
+
+.footer-paragraph{
+        color: var(--light-color);
 }
